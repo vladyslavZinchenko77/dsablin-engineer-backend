@@ -1,8 +1,6 @@
 {
   "scripts": {
-  "start": "node index.js",
-  "stop": "kill $(lsof -t -i:3000)",
-  "build": "npm start && npm run stop"
+  "start": "node index.js"
   
 },
   "dependencies": {
